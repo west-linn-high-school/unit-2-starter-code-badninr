@@ -20,6 +20,3 @@ public class Geometry{
         System.out.println("z="+z);
     }
 }
-String name="John";
-name += "Doe";
-System.out.println(name);
