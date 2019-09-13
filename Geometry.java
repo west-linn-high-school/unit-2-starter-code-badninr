@@ -10,13 +10,16 @@ public class Geometry{
         System.out.println("A dodecagon has "+sides+" sides");
         System.out.println("The circumference of a circle with a radius of "
         +radius+" is "+ (2*PI*radius));
-        
+
         int a=40;
-        double b=6.0;
+        double b=7.0;
         double y= 6.0;
         double z;
         z= a/b;
-       
+
         System.out.println("z="+z);
-    }        
+    }
 }
+String name="John";
+name += "Doe";
+System.out.println(name);
