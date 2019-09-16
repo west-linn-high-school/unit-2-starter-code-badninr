@@ -1,27 +1,18 @@
 import java.util.Scanner;
 
-/**
- * Write a description of class ScanPractice here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class ScanPractice
 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter a line of text:");
+        System.out.println("Enter three numbers (press enter after each):");
+        double num1 = scan.nextDouble();
+        double num2 = scan.nextDouble();
+        double num3 = scan.nextDouble();
 
-        String word = scan.next();
+        System.out.println("Your numbers: "+num1+", "+num2+", and "+num3);
 
-        String line = scan.nextLine();
+        double avgNum=(num1+num2+num3)/3;
 
-        System.out.println(word);
-        System.out.println(line);
-
-        // DecimalFormat fmt = new DecimalFormat("0.###");
-        // System.out.println("A formatted decimal: " + fmt.format(15.2346672));
-        // fmt.applyPattern("0.#");
-        // System.out.println("Uses a new format: " + fmt.format(15.2346672));
+        System.out.println("The average is: "+avgNum);
     }
 }
